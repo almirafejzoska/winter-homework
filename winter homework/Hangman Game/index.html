@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="categoryModal" class="modal">
+        <div class="modal-content">
+            <h4>Select a Category</h4>
+            <select id="categorySelect">
+                <option value="Games">Games</option>
+                <option value="TVShow">TV Shows</option>
+                <option value="Books">Books</option>
+            </select>
+            <button id="startGameBtn">Start Game</button>
+        </div>
+    </div>
+    <div id="blurOverlay" class="blur-overlay"></div>
+    <h1>HANGMAN</h1>
+    <h2>VANILLA JAVASCRIPT HANGMAN GAME</h2>
+    <h3>Use the alphabet below to guess the word, or click hint to get a clue.</h3>
+    <div class="alphabet">
+        <button>A</button>
+        <button>B</button>
+        <button>C</button>
+        <button>D</button>
+        <button>E</button>
+        <button>F</button>
+        <button>G</button>
+        <button>H</button>
+        <button>I</button>
+        <button>J</button>
+        <button>K</button>
+        <button>L</button>
+        <button>M</button>
+        <button>N</button>
+        <button>O</button>
+        <button>P</button>
+        <button>Q</button>
+        <button>R</button>
+        <button>S</button>
+        <button>T</button>
+        <button>U</button>
+        <button>V</button>
+        <button>W</button>
+        <button>X</button>
+        <button>Y</button>
+        <button>Z</button>
+    </div>
+    <p class="category">The Chosen Category Is </p>
+    <p class="word"></p>
+    <p class="lives">Lives: <span id="remainingLives">6</span></p>
+    <p class="clue">Clue -</p>
+    <!-- <div class="clueBox"></div> -->
+    <div class="btns">
+        <button class="hint">Hint</button>
+        <button class="playAgain">Play again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

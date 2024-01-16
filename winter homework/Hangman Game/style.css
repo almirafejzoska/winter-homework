@@ -1,0 +1,92 @@
+body {
+    background-color: hsl(68, 68%, 51%);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+h2{
+    font-size: 2em;
+    margin-top: -20px;
+    color: hsl(68, 68%, 51%)
+}
+h3{
+    font-size: 1.7em;
+    margin-top: 30px;
+}
+p{
+    font-size: 1.8em;
+    font-weight: 700;
+}
+.word {
+    font-size: 2em;
+    letter-spacing: 0.6vh;
+}
+.clueBox{
+    border: 2px dashed #ffffff;
+    width: 350px;
+    height: 345px;
+    margin:auto;
+}
+.alphabet {
+    margin: 1em;
+    padding: auto;
+}
+.alphabet button {
+    margin: 0.5em;
+    background-color: #ffffff;
+    color: hsl(68, 68%, 51%);
+    width: 40px;
+    height: 50px;
+    border-radius: 10%;
+    border: none;
+}
+.alphabet button:active {
+    background-color: hsl(71, 22%, 90%);
+    color: #0c0b0b;
+}
+.btns button{
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: hsl(68, 68%, 51%);
+    color: #ffffff;
+    width: 180px;
+    height: 60px;
+    border-radius: 5%;
+    border:solid 1px #ffffff;
+}
+.btns button:active {
+    background-color: hsl(76, 17%, 87%);
+    color: #0c0b0b;
+}
+.blur-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(212, 209, 209, 0.8);
+    z-index: 999;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    padding: 20px;
+}
+#categoryModal{
+    background-color: hsl(68, 68%, 51%);
+    font-size:x-large;
+    width: 20vh;
+}
+select{
+    background-color: hsl(68, 68%, 51%);
+    border: 2px solid rgb(231, 236, 230);
+}
+#startGameBtn{
+    background-color: hsl(68, 68%, 51%);
+    border: 2px solid rgb(231, 236, 230);
+}
